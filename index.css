@@ -98,6 +98,24 @@ img.netuno{
 .teste{
     background-color: #1c082e;
     height: 300px;
+    border-radius: 25px;
 }
 
+.footer_1{
+    background-color: #1c082e;
+    text-align: center;
+    }
 
+.footer_2{
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.conteudo_footer{
+    background-color: #1c082e; 
+    width: 20%; 
+    border-radius: 25px;
+    text-align: center;
+}
