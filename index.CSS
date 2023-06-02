@@ -1,0 +1,362 @@
+body{
+    margin:0;
+    background-image: url('assets/fundogalaxy.jpg');
+    background-size: 100%;
+    color:aliceblue;
+    
+}
+
+nav{
+    display:flex; 
+    justify-content:space-between; 
+    padding:15px;
+    background-color:#1c082e;
+}
+
+header{
+    display:grid;
+    grid-template-columns: 10% 10% 80%;
+    margin-top: 10px;
+    padding:15px;
+    background-color:#1c082e;
+}
+
+.foguete{
+    position: fixed;
+    margin-top: 10px;
+    height: 150px;
+}
+
+.ind_foguete{
+    text-align: center;
+    font-size: x-large;
+}
+
+img.seta{
+    height: 29px;
+}
+
+h1{
+    font-size: 50px;
+    padding-left: 10%;
+}
+
+h3{
+    padding-left:20%;
+}
+
+.title{
+    align-items:  center;
+}
+
+a{
+    color:#FFF; 
+    text-decoration: none;
+}
+
+table{
+    align-items: center;
+}
+
+img.sol{
+    height: 600px;
+    margin-left: -300px;
+}
+img.mercurio{
+    height: 50px;
+}
+
+img.venus{
+    height: 150px;
+}
+
+img.terra{
+    height: 110px;
+}
+
+img.marte{
+    height: 70px;
+    padding:20px;
+}
+
+img.jupiter{
+    height: 200px;
+}
+
+img.saturno{
+    height: 200px;
+}
+
+img.urano{
+    height: 110px;
+}
+
+img.netuno{
+    height: 110px;
+}
+
+.trivia{
+    background-color: #1c082e;
+    height: 300px;
+    border-radius: 25px;
+}
+
+img.S1{
+    left: 700px;
+    top: 820px;
+    position: absolute;
+    width:450px; 
+    height:450px;
+
+
+      }
+
+.Tsol{
+    left: 152px;
+    top: 990px;
+    position: absolute;
+    justify-self: auto;
+    
+
+
+}
+img.M1{
+    left: 750px;
+    top: 1240px;
+    position: absolute;
+    width:350px; 
+    height:350px;
+
+
+      }
+
+.Tmer{
+    left: 152px;
+    top: 1340px;
+    position: absolute;
+    justify-self: auto;
+    
+
+
+}
+img.V1{
+    left: 750px;
+    top: 1570px;
+    position: absolute;
+    width:350px; 
+    height:350px;
+
+
+      }
+
+.Tven{
+    left: 152px;
+    top: 1680px;
+    position: absolute;
+    justify-self: auto;
+    
+
+
+}
+img.T1{
+    left: 780px;
+    top: 1970px;
+    position: absolute;
+    width:250px; 
+    height:250px;
+
+
+      }
+
+.Tter{
+    left: 152px;
+    top: 2030px;
+    position: absolute;
+    justify-self: auto;
+    
+
+
+}
+img.MA1{
+    left: 780px;
+    top: 2310px;
+    position: absolute;
+    width:243px; 
+    height:243px;
+
+
+      }
+
+.Tmar{
+    left: 152px;
+    top: 2360px;
+    position: absolute;
+    justify-self: auto;
+    
+
+
+}
+img.J1{
+    left: 760px;
+    top: 2630px;
+    position: absolute;
+    width:300px; 
+    height:300px;
+
+
+      }
+
+.Tjup{
+    left: 152px;
+    top: 2710px;
+    position: absolute;
+    justify-self: auto;
+    
+
+
+}
+img.SA1{
+    left: 710px;
+    top: 2910px;
+    position: absolute;
+    width:420px; 
+    height:420px;
+
+
+      }
+
+.Tsat{
+    left: 152px;
+    top: 3050px;
+    position: absolute;
+    justify-self: auto;
+    
+
+
+}
+img.U1{
+    left: 780px;
+    top: 3317px;
+    position: absolute;
+    width:280px; 
+    height:280px;
+
+
+      }
+
+.Tura{
+    left: 152px;
+    top: 3380px;
+    position: absolute;
+    justify-self: auto;
+    
+
+
+}
+img.N1{
+    left: 784px;
+    top: 3660px;
+    position: absolute;
+    width:280px; 
+    height:280px;
+
+
+      }
+
+.Tnet{
+    left: 152px;
+    top: 3730px;
+    position: absolute;
+    justify-self: auto;
+    
+
+
+}
+
+
+.teste{
+    background-color: #1c082e;
+    height: 300px;
+    border-radius: 25px;
+}
+
+
+.footer_1{
+    background-color: #1c082e;
+    text-align: center;
+    }
+
+.footer_2{
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.conteudo_footer{
+    background-color: #1c082e; 
+    width: 20%; 
+    border-radius: 25px;
+    text-align: center;
+}
+
+.conteiner {
+    background-image: url('assets/fundogalaxy.jpg');
+    width: 90%;
+    max-width: 800px;
+  
+    border: 2px solid #e1e1e6;
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0 0 2px 2px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .questoes-conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  
+  .questao {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .resposta-conteiner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+  
+  .resposta:disabled {
+    cursor: not-allowed;
+  }
+  
+  .proxima-questao {
+    margin-top: 32px;
+  }
+  
+  .button {
+    background-color: #1c082e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 6px;
+    height: 48px;
+    padding: 0 32px;
+  
+    transition: filter 0.1s;
+  }
+  .button:hover{
+    filter: brightness(1.5);
+  }
