@@ -1,9 +1,8 @@
 body{
     margin:0;
-    background-image: url('assets/fundogalaxy.jpg');
-    background-size: 100%;
+    background-image: url('assets/fundogalaxypattern.jpeg');
+    background-size: 30%;
     color:aliceblue;
-    
 }
 
 nav{
