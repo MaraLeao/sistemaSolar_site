@@ -309,8 +309,9 @@ img.N1{
 }
 .conteiner {
     background-image: url('assets/fundogalaxy.jpg');
-    width: 90%;
-    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
     border: 2px solid #e1e1e6;
     border-radius: 6px;
