@@ -63,6 +63,7 @@ img.sol{
 }
 img.mercurio{
     height: 50px;
+    transform:rotate(180deg);
 }
 
 img.venus{
@@ -80,10 +81,13 @@ img.marte{
 
 img.jupiter{
     height: 200px;
+    
+    transform: scaleX(-1);
 }
 
 img.saturno{
     height: 200px;
+    transform: rotate(25deg)
 }
 
 img.urano{
