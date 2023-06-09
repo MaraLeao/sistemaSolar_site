@@ -29,7 +29,6 @@ function showNextQuestion() {
      answersContainer.appendChild(newAnswer)
      
     })
-    
 }
 
 
