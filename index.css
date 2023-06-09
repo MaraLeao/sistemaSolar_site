@@ -1,10 +1,14 @@
+html {
+    scroll-behavior:smooth;
+}
+  
 body{
     margin:0;
     background-image: url('assets/pixelartbackground.jpeg');
     background-size: 300px;
     color:aliceblue;
     font-family: 'vt323', monospace;
-    font-size: x-large;
+    font-size: large;
 }
 
 nav{
@@ -56,56 +60,11 @@ a{
     text-decoration: none;
 }
 
-table{
-    align-items: center;
-}
-
 section.planetas{
     justify-content: space-between;
     display:flex;
     align-items: center;
     margin:5%;
-}
-
-img.sol{
-    
-    margin-left: -300px;
-}
-img.mercurio{
-    height: 50px;
-    transform:rotate(180deg);
-}
-
-img.venus{
-    height: 150px;
-}
-
-img.terra{
-    height: 110px;
-}
-
-img.marte{
-    height: 70px;
-    padding:20px;
-}
-
-img.jupiter{
-    height: 200px;
-    
-    transform: scaleX(-1);
-}
-
-img.saturno{
-    height: 200px;
-    transform: rotate(25deg)
-}
-
-img.urano{
-    height: 110px;
-}
-
-img.netuno{
-    height: 110px;
 }
 
 .trivia{
@@ -120,170 +79,134 @@ img.S1{
     position: absolute;
     width:450px; 
     height:450px;
-
-
-      }
+}
 
 .Tsol{
     left: 152px;
     top: 990px;
     position: absolute;
     justify-self: auto;
-    
-
-
 }
+
 img.M1{
     left: 750px;
     top: 1240px;
     position: absolute;
     width:350px; 
     height:350px;
-
-
-      }
+}
 
 .Tmer{
     left: 152px;
     top: 1340px;
     position: absolute;
     justify-self: auto;
-    
-
-
 }
+
 img.V1{
     left: 750px;
     top: 1570px;
     position: absolute;
     width:350px; 
     height:350px;
-
-
-      }
+}
 
 .Tven{
     left: 152px;
     top: 1680px;
     position: absolute;
     justify-self: auto;
-    
-
-
 }
+
 img.T1{
     left: 780px;
     top: 1970px;
     position: absolute;
     width:250px; 
     height:250px;
-
-
-      }
+}
 
 .Tter{
     left: 152px;
     top: 2030px;
     position: absolute;
     justify-self: auto;
-    
-
-
 }
+
 img.MA1{
     left: 780px;
     top: 2310px;
     position: absolute;
     width:243px; 
     height:243px;
-
-
-      }
+}
 
 .Tmar{
     left: 152px;
     top: 2360px;
     position: absolute;
     justify-self: auto;
-    
-
-
 }
+
 img.J1{
     left: 760px;
     top: 2630px;
     position: absolute;
     width:300px; 
     height:300px;
-
-
-      }
+}
 
 .Tjup{
     left: 152px;
     top: 2710px;
     position: absolute;
     justify-self: auto;
-    
-
 
 }
+
 img.SA1{
     left: 710px;
     top: 2910px;
     position: absolute;
     width:420px; 
     height:420px;
-
-
-      }
+}
 
 .Tsat{
     left: 152px;
     top: 3050px;
     position: absolute;
     justify-self: auto;
-    
-
-
 }
+
 img.U1{
     left: 780px;
     top: 3317px;
     position: absolute;
     width:280px; 
     height:280px;
-
-
-      }
+}
 
 .Tura{
     left: 152px;
     top: 3380px;
     position: absolute;
     justify-self: auto;
-    
-
-
 }
+
 img.N1{
     left: 784px;
     top: 3660px;
     position: absolute;
     width:280px; 
     height:280px;
-
-
-      }
+}
 
 .Tnet{
     left: 152px;
     top: 3730px;
     position: absolute;
     justify-self: auto;
-    
-
-
 }
 
 
@@ -298,7 +221,7 @@ img.N1{
     background-color: #1c082e;
     text-align: center;
     font-size: 24px;
-    }
+}
 
 .footer_2{
     display: flex;
@@ -317,6 +240,7 @@ img.N1{
 .DR{
     text-align: center;
 }
+
 .conteiner {
     background-image: url('assets/fundogalaxy.jpg');
     display: flex;
@@ -332,7 +256,7 @@ img.N1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
   
   .questoes-conteiner {
     width: 100%;
@@ -340,28 +264,28 @@ img.N1{
     flex-direction: column;
     align-items: center;
     gap: 24px;
-  }
+}
   
   .questao {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-  }
+}
   
   .resposta-conteiner {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
-  }
+}
   
   .resposta:disabled {
     cursor: not-allowed;
-  }
+}
   
   .proxima-questao {
     margin-top: 32px;
-  }
+}
   
   .button {
     background-color: #1c082e;
@@ -372,12 +296,13 @@ img.N1{
     border-radius: 6px;
     height: 48px;
     padding: 0 32px;
-  
     transition: filter 0.1s;
-  }
+}
+
   .button:hover{
     filter: brightness(1.5);
-  }
+}
+
 .hide {
     display: none;
 }
