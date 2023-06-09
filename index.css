@@ -1,8 +1,10 @@
 body{
     margin:0;
-    background-image: url('assets/fundogalaxypattern.jpeg');
-    background-size: 30%;
+    background-image: url('assets/pixelartbackground.jpeg');
+    background-size: 300px;
     color:aliceblue;
+    font-family: 'vt323', monospace;
+    font-size: x-large;
 }
 
 nav{
@@ -22,8 +24,8 @@ header{
 
 .foguete{
     position: fixed;
-    margin-top: 10px;
-    height: 150px;
+    margin-top: 30px;
+    margin-left: 10px;
 }
 
 .ind_foguete{
@@ -36,8 +38,9 @@ img.seta{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 200%;
     padding-left: 10%;
+    font-family: 'Silkscreen', cursive
 }
 
 h3{
@@ -57,8 +60,15 @@ table{
     align-items: center;
 }
 
+section.planetas{
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    margin:5%;
+}
+
 img.sol{
-    height: 600px;
+    
     margin-left: -300px;
 }
 img.mercurio{
@@ -370,3 +380,4 @@ img.N1{
   }
 .hide {
     display: none;
+}
