@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href="contato.css">
+    <script src="index.js" async> </script>
+
+    <link rel="icon" type="image/png" href="assets/sol-pixel.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&family=Silkscreen&family=VT323&display=swap" rel="stylesheet">
+    <title>Sistema Solar</title>
+</head>
+<body>
+    <nav id="home">
+        <a href="index.html#navsol">Sol</a>
+        <a href="index.html#navmercurio">Mercúrio</a>
+        <a href="index.html#navvenus">Vênus</a>
+        <a href="index.html#navterra">Terra</a>
+        <a href="index.html#navmarte">Marte</a>
+        <a href="index.html#navjupiter">Júpiter</a>
+        <a href="index.html#navsaturno">Saturno</a>
+        <a href="index.html#navurano">Urano</a>
+        <a href="index.html#navnetuno">Netuno</a>
+        <a href="index.html#navquest">Questionário</a>
+        <a href="index.html#navctt">Contato</a>
+    </nav>
+    
+    <header>
+        <section>
+            <a href="index.html#home"><img src="assets/foguete.png" class="foguete"></a>
+        </section>
+
+        <section class="ind_foguete">
+            <p>Clique no <br> foguete <br>para voltar</p>
+            <img src="assets/seta-pixel.png" class="seta">
+        </section>
+
+        <section class="title">
+            <h1>Fale Conosco<img src="https://static.vecteezy.com/system/resources/previews/013/743/337/original/pixel-art-alien-png.png" width="3%"></h1>
+            <h3>Preencha o formulário para entrar em contato</h3> 
+        </section>
+    </header>
+
+    <form method="post" action="index.html" style="padding-top: 10px;">
+        <fieldset class="campo_form">
+           
+            <label>Nome:</label>
+            <input type="text" name="nome" required placeholder="Digite seu Nome completo:"><br><br>
+
+              <label>Email:</label>
+              <input type="email" name="email" size="25" required placeholder="Exemplo: seuemail@gmail.com"><br><br>
+
+              <label>Mensagem:</label><br>
+              <textarea name="mensagem"  cols="50" rows="4" required placeholder="Digite sua mensagem aqui:"></textarea><br><br>
+
+              <input type="reset" value="Reset">
+              <input type="submit" value="Submit"><br><br>
+
+              <label>Concordo com os Termos de Privacidade do Site</label>
+              <input type="checkbox" name="termos" required><br><br>
+
+              <label>Desejo receber atualizações por Email.</label>
+              <input type="checkbox" name="att">
+
+        </fieldset>
+    </form>
+
+    <footer class="footer_1">
+        <h4>Equipe de Desenvolvimento</h4>
+    </footer>
+    
+    <section class="footer_2">
+        <footer class="conteudo_footer">
+                <a href="https://github.com/eduardoramalhoz" target="_blank"><img src="https://github.com/MaraLeao/sistemaSolar_site/blob/main/fotos/fotor_2023-5-30_17_5_29.png?raw=true" width="30%"></a>
+                <p>Eduardo Ramalho</p>
+        </footer>
+        
+        <footer class="conteudo_footer">
+                <a href="https://github.com/MaraLeao" target="_blank"><img src="https://github.com/MaraLeao/sistemaSolar_site/blob/main/fotos/fotor_2023-5-30_17_33_8.png?raw=true" width="30%"></a>
+                <p>Mara Leão</p>
+        </footer>
+        
+        <footer class="conteudo_footer">
+                <a href="https://github.com/Gabril64" target="_blank"><img src="https://github.com/MaraLeao/sistemaSolar_site/blob/main/fotos/fotor_2023-5-30_17_44_58.png?raw=true" width="30%"></a>
+                <p>Gabriel Guberson</p>
+        </footer>
+        
+        <footer class="conteudo_footer">
+                <a href="https://github.com/YasRibeiroo" target="_blank"><img src="https://github.com/MaraLeao/sistemaSolar_site/blob/main/fotos/fotor_2023-5-30_17_45_19.png?raw=true" width="30%"></a>
+                <p>Yasmin Fujioka</p>
+        </footer>
+    </section>
+    <footer class="DR">
+        <h4>Equipe Solaris &copy; Direitos Reservados</h4>
+    </footer>
