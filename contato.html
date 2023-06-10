@@ -17,6 +17,7 @@
 </head>
 <body>
     <nav id="home">
+        <a href="index.html">Início</a>
         <a href="index.html#navsol">Sol</a>
         <a href="index.html#navmercurio">Mercúrio</a>
         <a href="index.html#navvenus">Vênus</a>
@@ -27,7 +28,6 @@
         <a href="index.html#navurano">Urano</a>
         <a href="index.html#navnetuno">Netuno</a>
         <a href="index.html#navquest">Questionário</a>
-        <a href="index.html#navctt">Contato</a>
     </nav>
     
     <header>
@@ -41,32 +41,38 @@
         </section>
 
         <section class="title">
-            <h1>Fale Conosco<img src="https://static.vecteezy.com/system/resources/previews/013/743/337/original/pixel-art-alien-png.png" width="3%"></h1>
+            <h1>Fale Conosco<img src="https://static.vecteezy.com/system/resources/previews/013/743/337/original/pixel-art-alien-png.png" class="et"></h1>
             <h3>Preencha o formulário para entrar em contato</h3> 
         </section>
     </header>
 
     <form method="post" action="index.html" style="padding-top: 10px;">
         <fieldset class="campo_form">
-           
-            <label>Nome:</label>
-            <input type="text" name="nome" required placeholder="Digite seu Nome completo:"><br><br>
+            <div class="camp_preenchimento">
+                <p>
+                    <label>Nome:</label>
+                    <input type="text" name="nome" required placeholder="Nome e sobrenome"><br>
+                </p>
+                <p>
+                    <label>Email:</label>
+                    <input type="email" name="email"  required placeholder="seuemail@gmail.com">
+                </p>
+                <p>
+                    <label>Mensagem:</label><br>
+                    <textarea name="mensagem"  cols="50" rows="4"  placeholder="Digite sua mensagem"></textarea>
+                </p>
 
-              <label>Email:</label>
-              <input type="email" name="email" size="25" required placeholder="Exemplo: seuemail@gmail.com"><br><br>
+                <input type="checkbox" name="termos" required>
+                <label>Concordo com os Termos de Privacidade do Site</label><br>
+                
+                <input type="checkbox" name="att">
+                <label>Desejo receber atualizações por Email.</label>
+            </div>
 
-              <label>Mensagem:</label><br>
-              <textarea name="mensagem"  cols="50" rows="4" placeholder="Digite sua mensagem aqui:"></textarea><br><br>
-
-              <input type="reset" value="Reset">
-              <input type="submit" value="Submit"><br><br>
-
-              <label>Concordo com os Termos de Privacidade do Site</label>
-              <input type="checkbox" name="termos" required><br><br>
-
-              <label>Desejo receber atualizações por Email.</label>
-              <input type="checkbox" name="att">
-
+            <p>
+                <input id="botao" type="reset" value="Limpar">
+                <input id="botao" type="submit" value="Enviar">
+            </p>
         </fieldset>
     </form>
 
