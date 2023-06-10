@@ -7,8 +7,9 @@ body{
     background-image: url('assets/pixelartbackground.jpeg');
     background-size: 300px;
     color:aliceblue;
-    font-family: 'vt323', monospace;
-    font-size: large;
+    font-family: 'Silkscreen', cursive;
+    font-size: small;
+    
 }
 
 nav{
@@ -28,13 +29,14 @@ header{
 
 .foguete{
     position: fixed;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 10px;
 }
 
 .ind_foguete{
     text-align: center;
-    font-size: x-large;
+    margin-top:20%;
+    font-size:large
 }
 
 img.seta{
@@ -42,9 +44,9 @@ img.seta{
 }
 
 h1{
-    font-size: 200%;
+    font-size: 600%;
     padding-left: 10%;
-    font-family: 'Silkscreen', cursive
+    font-family: 'vt323',monospace;
 }
 
 h3{
@@ -74,137 +76,137 @@ section.planetas{
 }
 
 img.S1{
-    left: 700px;
-    top: 820px;
+    left: 60px;
+    top: 680px;
     position: absolute;
-    width:450px; 
-    height:450px;
+    width:230px; 
+    height:230px;
 }
 
 .Tsol{
-    left: 152px;
-    top: 990px;
+    left: 502px;
+    top: 730px;
     position: absolute;
     justify-self: auto;
 }
 
 img.M1{
-    left: 750px;
-    top: 1240px;
+    left: 160px;
+    top: 1080px;
     position: absolute;
-    width:350px; 
-    height:350px;
+    width:50px; 
+    height:50px;
 }
 
 .Tmer{
-    left: 152px;
-    top: 1340px;
+    left:502px;
+    top: 1060px;
     position: absolute;
     justify-self: auto;
 }
 
 img.V1{
-    left: 750px;
-    top: 1570px;
+    left: 130px;
+    top: 1380px;
     position: absolute;
-    width:350px; 
-    height:350px;
+    width:120px; 
+    height:120px;
 }
 
 .Tven{
-    left: 152px;
-    top: 1680px;
+    left: 502px;
+    top: 1400px;
     position: absolute;
     justify-self: auto;
 }
 
 img.T1{
-    left: 780px;
-    top: 1970px;
+    left: 120px;
+    top: 1690px;
     position: absolute;
-    width:250px; 
-    height:250px;
+    width:155px; 
+    height:155px;
 }
 
 .Tter{
-    left: 152px;
-    top: 2030px;
+    left: 502px;
+    top: 1720px;
     position: absolute;
     justify-self: auto;
 }
 
 img.MA1{
-    left: 780px;
-    top: 2310px;
+    left: 140px;
+    top: 2040px;
     position: absolute;
-    width:243px; 
-    height:243px;
+    width:120px; 
+    height:120px;
 }
 
 .Tmar{
-    left: 152px;
-    top: 2360px;
+    left: 502px;
+    top: 2030px;
     position: absolute;
     justify-self: auto;
 }
 
 img.J1{
-    left: 760px;
-    top: 2630px;
+    left: 100px;
+    top: 2335px;
     position: absolute;
-    width:300px; 
-    height:300px;
+    width:210px; 
+    height:210px;
 }
 
 .Tjup{
-    left: 152px;
-    top: 2710px;
+    left: 502px;
+    top: 2360px;
     position: absolute;
     justify-self: auto;
 
 }
 
 img.SA1{
-    left: 710px;
-    top: 2910px;
+    left: 120px;
+    top: 2660px;
     position: absolute;
-    width:420px; 
-    height:420px;
+    width:220px; 
+    height:220px;
 }
 
 .Tsat{
-    left: 152px;
-    top: 3050px;
+    left: 502px;
+    top: 2710px;
     position: absolute;
     justify-self: auto;
 }
 
 img.U1{
-    left: 780px;
-    top: 3317px;
+    left: 140px;
+    top: 3020px;
     position: absolute;
-    width:280px; 
-    height:280px;
+    width:150px; 
+    height:150px;
 }
 
 .Tura{
-    left: 152px;
-    top: 3380px;
+    left: 502px;
+    top: 3050px;
     position: absolute;
     justify-self: auto;
 }
 
 img.N1{
-    left: 784px;
-    top: 3660px;
+    left: 120px;
+    top: 3350px;
     position: absolute;
-    width:280px; 
-    height:280px;
+    width:180px; 
+    height:180px;
 }
 
 .Tnet{
-    left: 152px;
-    top: 3730px;
+    left: 502px;
+    top: 3370px;
     position: absolute;
     justify-self: auto;
 }
