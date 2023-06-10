@@ -2,7 +2,7 @@ html {
     scroll-behavior:smooth;
 }
   
-body{
+body {
     margin:0;
     background-image: url('assets/pixelartbackground.jpeg');
     background-size: 300px;
@@ -12,14 +12,14 @@ body{
     
 }
 
-nav{
+nav {
     display:flex; 
     justify-content:space-between; 
     padding:15px;
     background-color:#1c082e;
 }
 
-header{
+header {
     display:grid;
     grid-template-columns: 10% 10% 80%;
     margin-top: 10px;
@@ -27,55 +27,55 @@ header{
     background-color:#1c082e;
 }
 
-.foguete{
+.foguete {
     position: fixed;
     margin-top: 50px;
     margin-left: 10px;
 }
 
-.ind_foguete{
+.ind_foguete {
     text-align: center;
     margin-top:20%;
     font-size:large
 }
 
-img.seta{
+img.seta {
     height: 29px;
 }
 
-h1{
+h1 {
     font-size: 600%;
     padding-left: 10%;
     font-family: 'vt323',monospace;
 }
 
-h3{
+h3 {
     padding-left:20%;
 }
 
-.title{
+.title {
     align-items:  center;
 }
 
-a{
+a {
     color:#FFF; 
     text-decoration: none;
 }
 
-section.planetas{
+section.planetas {
     justify-content: space-between;
     display:flex;
     align-items: center;
     margin:5%;
 }
 
-.trivia{
+.trivia {
     background-color: #1c082e;
     height: 300px;
     border-radius: 25px;
 }
 
-img.S1{
+img.S1 {
     left: 60px;
     top: 680px;
     position: absolute;
@@ -83,14 +83,14 @@ img.S1{
     height:230px;
 }
 
-.Tsol{
+.Tsol {
     left: 502px;
     top: 730px;
     position: absolute;
     justify-self: auto;
 }
 
-img.M1{
+img.M1 {
     left: 160px;
     top: 1080px;
     position: absolute;
@@ -98,7 +98,7 @@ img.M1{
     height:50px;
 }
 
-.Tmer{
+.Tmer {
     left:502px;
     top: 1060px;
     position: absolute;
@@ -113,14 +113,14 @@ img.V1{
     height:120px;
 }
 
-.Tven{
+.Tven {
     left: 502px;
     top: 1400px;
     position: absolute;
     justify-self: auto;
 }
 
-img.T1{
+img.T1 {
     left: 120px;
     top: 1690px;
     position: absolute;
@@ -128,7 +128,7 @@ img.T1{
     height:155px;
 }
 
-.Tter{
+.Tter {
     left: 502px;
     top: 1720px;
     position: absolute;
@@ -143,7 +143,7 @@ img.MA1{
     height:120px;
 }
 
-.Tmar{
+.Tmar {
     left: 502px;
     top: 2030px;
     position: absolute;
@@ -158,7 +158,7 @@ img.J1{
     height:210px;
 }
 
-.Tjup{
+.Tjup {
     left: 502px;
     top: 2360px;
     position: absolute;
@@ -166,7 +166,7 @@ img.J1{
 
 }
 
-img.SA1{
+img.SA1 {
     left: 120px;
     top: 2660px;
     position: absolute;
@@ -174,14 +174,14 @@ img.SA1{
     height:220px;
 }
 
-.Tsat{
+.Tsat {
     left: 502px;
     top: 2710px;
     position: absolute;
     justify-self: auto;
 }
 
-img.U1{
+img.U1 {
     left: 140px;
     top: 3020px;
     position: absolute;
@@ -189,14 +189,14 @@ img.U1{
     height:150px;
 }
 
-.Tura{
+.Tura {
     left: 502px;
     top: 3050px;
     position: absolute;
     justify-self: auto;
 }
 
-img.N1{
+img.N1 {
     left: 120px;
     top: 3350px;
     position: absolute;
@@ -204,35 +204,27 @@ img.N1{
     height:180px;
 }
 
-.Tnet{
+.Tnet {
     left: 502px;
     top: 3370px;
     position: absolute;
     justify-self: auto;
 }
 
-
-.teste{
-    background-color: #1c082e;
-    height: 300px;
-    border-radius: 25px;
-}
-
-
-.footer_1{
+.footer_1 {
     background-color: #1c082e;
     text-align: center;
     font-size: 24px;
 }
 
-.footer_2{
+.footer_2 {
     display: flex;
     justify-content: space-between; 
     margin-left: 10px; 
     margin-right: 10px;
 }
 
-.conteudo_footer{
+.conteudo_footer {
     background-color: #1c082e; 
     width: 20%; 
     border-radius: 25px;
@@ -240,7 +232,7 @@ img.N1{
     padding-top: 1%;
 }
 
-.DR{
+.DR {
     text-align: center;
 }
 
@@ -261,7 +253,7 @@ img.N1{
     align-items: center;
 }
   
-  .questoes-conteiner {
+.questoes-conteiner {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -269,28 +261,28 @@ img.N1{
     gap: 24px;
 }
   
-  .questao {
+.questao {
     font-size: 24px;
     font-weight: bold;
     text-align: center;
 }
   
-  .resposta-conteiner {
+.resposta-conteiner {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
 }
   
-  .resposta:disabled {
+.resposta:disabled {
     cursor: not-allowed;
 }
   
-  .proxima-questao {
+.proxima-questao {
     margin-top: 32px;
 }
   
-  .button {
+.button {
     background-color: #1c082e;
     color: #fff;
     font-size: 16px;
@@ -302,7 +294,7 @@ img.N1{
     transition: filter 0.1s;
 }
 
-  .button:hover{
+button:hover {
     filter: brightness(1.5);
 }
 
