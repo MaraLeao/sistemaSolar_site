@@ -7,8 +7,9 @@ body{
     background-image: url('assets/pixelartbackground.jpeg');
     background-size: 300px;
     color:aliceblue;
-    font-family: 'vt323', monospace;
-    font-size: large;
+    font-family: 'Silkscreen', cursive;
+    font-size: small;
+    
 }
 
 nav{
@@ -28,13 +29,14 @@ header{
 
 .foguete{
     position: fixed;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 10px;
 }
 
 .ind_foguete{
     text-align: center;
-    font-size: x-large;
+    margin-top:20%;
+    font-size:large
 }
 
 img.seta{
@@ -42,9 +44,9 @@ img.seta{
 }
 
 h1{
-    font-size: 200%;
+    font-size: 600%;
     padding-left: 10%;
-    font-family: 'Silkscreen', cursive
+    font-family: 'vt323',monospace;
 }
 
 h3{
