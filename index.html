@@ -1,202 +1,308 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="index.js" async> </script>
+html {
+    scroll-behavior:smooth;
+}
+  
+body{
+    margin:0;
+    background-image: url('assets/pixelartbackground.jpeg');
+    background-size: 300px;
+    color:aliceblue;
+    font-family: 'vt323', monospace;
+    font-size: large;
+}
 
-    <link rel="icon" type="image/png" href="assets/sol-pixel.png">
+nav{
+    display:flex; 
+    justify-content:space-between; 
+    padding:15px;
+    background-color:#1c082e;
+}
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&family=Silkscreen&family=VT323&display=swap" rel="stylesheet">
-    <title>Sistema Solar</title>
-</head>
-<body>
-    <nav id="home">
-        <a href="index.html#navsol">Sol</a>
-        <a href="index.html#navmercurio">Mercúrio</a>
-        <a href="index.html#navvenus">Vênus</a>
-        <a href="index.html#navterra">Terra</a>
-        <a href="index.html#navmarte">Marte</a>
-        <a href="index.html#navjupiter">Júpiter</a>
-        <a href="index.html#navsaturno">Saturno</a>
-        <a href="index.html#navurano">Urano</a>
-        <a href="index.html#navnetuno">Netuno</a>
-        <a href="index.html#navquest">Questionário</a>
-        <a href="index.html#navctt">Contato</a>
-    </nav>
-    
-    <header>
-        <section>
-            <a href="index.html#home"><img src="assets/foguete.png" class="foguete"></a>
-        </section>
+header{
+    display:grid;
+    grid-template-columns: 10% 10% 80%;
+    margin-top: 10px;
+    padding:15px;
+    background-color:#1c082e;
+}
 
-        <section class="ind_foguete">
-            <p>Clique no <br> foguete <br>para voltar</p>
-            <img src="assets/seta-pixel.png" class="seta">
-        </section>
+.foguete{
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 10px;
+}
 
-        <section class="title">
-            <h1>Bem vindo ao Sistema Solar</h1>
-            <h3>Clique nos planetas para começar a viagem</h3>
-        </section>
-    </header>
+.ind_foguete{
+    text-align: center;
+    font-size: x-large;
+}
 
-    <section>
-        <section class="planetas">
-        
-            <a href="index.html#navsol"><img src="assets/sol-pixel.png"  alt="Sol"></a>   
-            <a href="index.html#navmercurio"><img src="assets/mercurio-pixel.png" alt="Mercúrio"></a>
-            <a href="index.html#navvenus"><img src="assets/venus-pixel.png" alt="Vênus"></a>
-            <a href="index.html#navterra"><img src="assets/terra-pixel.png" alt="Terra"></a>
-            <a href="index.html#navmarte"><img src="assets/marte-pixel.png" alt="Marte"></a>   
-            <a href="index.html#navjupiter"><img src="assets/jupiter-pixel.png" alt="Júpiter"></a>   
-            <a href="index.html#navsaturno"><img src="assets/saturno-pixel.png" alt="Saturno"></a>  
-            <a href="index.html#navurano"><img src="assets/urano-pixel.png"  alt="Urano"></a>   
-            <a href="index.html#navnetuno"> <img src="assets/netuno-pixel.png" alt="Netuno"></a>
-        </section>
+img.seta{
+    height: 29px;
+}
 
-       <div>
-            <h1 class="trivia" id="navsol">SOL</h1>
-           <p class="Tsol">
-                    O Sol é a estrela central do Sistema Solar. Todos os outros corpos do <br>
-                Sistema Solar, como planetas, planetas anões, asteroides, cometas e poeira,<br> 
-                bem como todos os satélites associados a estes corpos, giram ao seu redor.<br>
-            </p>
-            <img src="assets/sol-pixel.png" class="S1"/>
+h1{
+    font-size: 200%;
+    padding-left: 10%;
+    font-family: 'Silkscreen', cursive
+}
 
-            <h1 class="trivia" id="navmercurio">MERCURIO</h1>
-            <p class="Tmer">
-                    Mercúrio  é o menor e mais interno planeta do Sistema Solar, orbitando o Sol a <br>
-                cada 87,969 dias  terrestres. A sua órbita tem a maior excentricidade e o seu eixo <br>
-                apresenta a menor inclinação em relação ao plano da órbita dentre todos os planetas<br>
-                 do Sistema Solar.<br>
-          </p>    
-         <img src="assets/mercurio-pixel.png" class="M1"/>
+h3{
+    padding-left:20%;
+}
 
-            <h1 class="trivia" id="navvenus">VENUS</h1>
-            <p class="Tven">
-                   Vénus ou Vênus é o segundo planeta do Sistema Solar em ordem de distância a partir<br>
-                do Sol,  orbitando-o a cada 224,7 dias. Recebeu seu nome em  homenagem à deusa romana<br>
-                do amor e da beleza Vénus, equivalente a Afrodite.<br>
-                
-         </p>
-         <img src="assets/venus-pixel.png" class="V1"/>
+.title{
+    align-items:  center;
+}
 
-            <h1 class="trivia" id="navterra">TERRA</h1>
-            <p class="Tter">
-                    A Terra é o terceiro planeta mais próximo do Sol, o mais denso e o quinto<br>
-                maior dos oito planetas do Sistema Solar. É também o maior dos quatro planetas<br> 
-                telúricos. É por vezes designada como Mundo ou Planeta Azul.<br>
-         </p>
-         <img src="assets/terra-pixel.png" class="T1"/>
+a{
+    color:#FFF; 
+    text-decoration: none;
+}
 
-            <h1 class="trivia" id="navmarte">MARTE</h1>
-            <p class="Tmar">
-                    Marte é o quarto planeta a partir do Sol, o segundo menor do Sistema  Solar.<br> 
-                Batizado  em homenagem a divindade romana  da guerra,  muitas vezes  é descrito<br> 
-                como o "Planeta Vermelho", porque o óxido de ferro predominante em sua superfície<br>
-                lhe dá uma aparência avermelhada.<br>
-         </p>
-         <img src="assets/marte-pixel.png" class="MA1"/>
+section.planetas{
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+    margin:5%;
+}
 
-            <h1 class="trivia" id="navjupiter">JUPITER</h1>
-            <p class="Tjup">
-                    Júpiter é o maior  planeta do Sistema Solar, tanto em diâmetro  quanto em  massa,<br>
-                e é o quinto mais próximo do Sol. Possui menos de um milésimo da massa solar, contudo<br>
-                tem 2,5 vezes a  massa de todos os outros planetas em conjunto.  É um planeta  gasoso,<br>
-                junto com Saturno, Urano e Netuno<br>
-         </p>
-         <img src="assets/jupiter-pixel.png" class="J1"/>
+.trivia{
+    background-color: #1c082e;
+    height: 300px;
+    border-radius: 25px;
+}
 
-            <h1 class="trivia" id="navsaturno">SATURNO</h1>
-            <p class="Tsat">
-                   Saturno é o sexto planeta a partir do Sol e o segundo maior do Sistema Solar atrás de<br>
-                Júpiter. Pertencente ao grupo dos gigantes gasosos, possui cerca de 95 massas terrestres<br>
-                e orbita a uma distância média de 9,5 unidades astronômicas.<br>
-         </p>
-         <img src="assets/saturno-pixel.png" class="SA1"/>
+img.S1{
+    left: 60px;
+    top: 680px;
+    position: absolute;
+    width:230px; 
+    height:230px;
+}
 
-            <h1 class="trivia" id="navurano">URANO</h1>
-            <p class="Tura">
-                   Urano é o sétimo planeta a partir do Sol, o terceiro maior e o quarto mais massivo dos<br>
-                oito planetas do Sistema Solar. Foi nomeado em homenagem ao deus grego do céu, Urano<br>
-         </p>
-         <img src="assets/urano-pixel.png" class="U1"/>
-            
-            <h1 class="trivia" id="navnetuno">NETUNO</h1>
-            <p class="Tnet">
-                    Netuno ou Neptuno é o oitavo planeta do Sistema Solar, o último a partir  do Sol desde<br>
-                a reclassificação de Plutão para a categoria de planeta anão, em 2006. Pertencente ao grupo<br>
-                dos gigantes gasosos, possui um tamanho ligeiramente menor que o de Urano, mas maior massa,<br>
-                equivalente a 17 massas terrestres.<br>
-         </p>
-         <img src="assets/netuno-pixel.png" class="N1"/>
+.Tsol{
+    left: 502px;
+    top: 730px;
+    position: absolute;
+    justify-self: auto;
+}
 
-            
+img.M1{
+    left: 160px;
+    top: 1080px;
+    position: absolute;
+    width:50px; 
+    height:50px;
+}
 
-        </div>
-    </section>
-    
-    <div class="conteiner" id="navquest">
-        <div class="questoes-conteiner hide">
-          <span class="questao">Pergunta ???</span>
-          <div class="resposta-conteiner">
-            <button class="resposta button">Resposta 1</button>
-            <button class="resposta button">Resposta 2</button>
-            <button class="resposta button">Resposta 3</button>
-            <button class="resposta button">Resposta 4</button>
-          </div>
-        </div>
-        <div class="controls-conteiner">
-          <button class="comecar-quiz button">Começar Quiz!</button>
-          <button class="proxima-questao button hide">Próxima pergunta</button>
-        </div>
-      </div>
-    
-    <footer class="footer_1">
-        <h4>Equipe de Desenvolvimento</h4>
-    </footer>
-    
-    <section class="footer_2">
-        <footer class="conteudo_footer">
-            <div>
-                <h4>⠀⠀</h4>
-                <a href="https://github.com/eduardoramalhoz" target="_blank"><img src="https://github.com/MaraLeao/sistemaSolar_site/blob/main/fotos/fotor_2023-5-30_17_5_29.png?raw=true" width="30%"></a>
-                <p>Eduardo Ramalho</p>
-            </div>
-        </footer>
-        
-        <footer class="conteudo_footer">
-            <div>
-                <h4>⠀⠀</h4>
-                <a href="https://github.com/MaraLeao" target="_blank"><img src="https://github.com/MaraLeao/sistemaSolar_site/blob/main/fotos/fotor_2023-5-30_17_33_8.png?raw=true" width="30%"></a>
-                <p>Mara Leão</p>
-            </div>
-        </footer>
-        
-        <footer class="conteudo_footer">
-            <div>
-                <h4>⠀⠀</h4>
-                <a href="https://github.com/Gabril64" target="_blank"><img src="https://github.com/MaraLeao/sistemaSolar_site/blob/main/fotos/fotor_2023-5-30_17_44_58.png?raw=true" width="30%"></a>
-                <p>Gabriel Guberson</p>
-            </div>
-        </footer>
-        
-        <footer class="conteudo_footer">
-            <div>
-                <h4>⠀⠀</h4>
-                <a href="https://github.com/YasRibeiroo" target="_blank"><img src="https://github.com/MaraLeao/sistemaSolar_site/blob/main/fotos/fotor_2023-5-30_17_45_19.png?raw=true" width="30%"></a>
-                <p>Yasmin Fujioka</p>
-            </div>
-        </footer>
-    </section>
-    <footer class="DR">
-        <h4>Equipe Solaris &copy; Direitos Reservados</h4>
-    </footer>
-</body>
-</html>
+.Tmer{
+    left:502px;
+    top: 1060px;
+    position: absolute;
+    justify-self: auto;
+}
+
+img.V1{
+    left: 130px;
+    top: 1380px;
+    position: absolute;
+    width:120px; 
+    height:120px;
+}
+
+.Tven{
+    left: 502px;
+    top: 1400px;
+    position: absolute;
+    justify-self: auto;
+}
+
+img.T1{
+    left: 120px;
+    top: 1690px;
+    position: absolute;
+    width:155px; 
+    height:155px;
+}
+
+.Tter{
+    left: 502px;
+    top: 1720px;
+    position: absolute;
+    justify-self: auto;
+}
+
+img.MA1{
+    left: 140px;
+    top: 2040px;
+    position: absolute;
+    width:120px; 
+    height:120px;
+}
+
+.Tmar{
+    left: 502px;
+    top: 2030px;
+    position: absolute;
+    justify-self: auto;
+}
+
+img.J1{
+    left: 100px;
+    top: 2335px;
+    position: absolute;
+    width:210px; 
+    height:210px;
+}
+
+.Tjup{
+    left: 502px;
+    top: 2360px;
+    position: absolute;
+    justify-self: auto;
+
+}
+
+img.SA1{
+    left: 120px;
+    top: 2660px;
+    position: absolute;
+    width:220px; 
+    height:220px;
+}
+
+.Tsat{
+    left: 502px;
+    top: 2710px;
+    position: absolute;
+    justify-self: auto;
+}
+
+img.U1{
+    left: 140px;
+    top: 3020px;
+    position: absolute;
+    width:150px; 
+    height:150px;
+}
+
+.Tura{
+    left: 502px;
+    top: 3050px;
+    position: absolute;
+    justify-self: auto;
+}
+
+img.N1{
+    left: 120px;
+    top: 3350px;
+    position: absolute;
+    width:180px; 
+    height:180px;
+}
+
+.Tnet{
+    left: 502px;
+    top: 3370px;
+    position: absolute;
+    justify-self: auto;
+}
+
+
+.teste{
+    background-color: #1c082e;
+    height: 300px;
+    border-radius: 25px;
+}
+
+
+.footer_1{
+    background-color: #1c082e;
+    text-align: center;
+    font-size: 24px;
+}
+
+.footer_2{
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.conteudo_footer{
+    background-color: #1c082e; 
+    width: 20%; 
+    border-radius: 25px;
+    text-align: center;
+}
+
+.DR{
+    text-align: center;
+}
+
+.conteiner {
+    background-image: url('assets/fundogalaxy.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border: 2px solid #e1e1e6;
+    border-radius: 6px;
+    padding: 16px;
+    box-shadow: 0 0 2px 2px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .questoes-conteiner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+  
+  .questao {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+  
+  .resposta-conteiner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+  
+  .resposta:disabled {
+    cursor: not-allowed;
+}
+  
+  .proxima-questao {
+    margin-top: 32px;
+}
+  
+  .button {
+    background-color: #1c082e;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 6px;
+    height: 48px;
+    padding: 0 32px;
+    transition: filter 0.1s;
+}
+
+  .button:hover{
+    filter: brightness(1.5);
+}
+
+.hide {
+    display: none;
+}
