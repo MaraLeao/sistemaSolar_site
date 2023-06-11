@@ -1,0 +1,123 @@
+html {
+    scroll-behavior:smooth;
+}
+  
+body {
+    margin:0;
+    background-image: url('assets/pixelartbackground.jpeg');
+    background-size: 300px;
+    color:aliceblue;
+    font-family: 'Silkscreen', cursive;
+    font-size: small;
+}
+
+nav {
+    display:flex; 
+    justify-content:space-between; 
+    padding:15px;
+    background-color:#1c082e;
+}
+
+a {
+    color:#FFF; 
+    text-decoration: none;
+}
+
+header {
+    display:grid;
+    grid-template-columns: 10% 10% 80%;
+    margin-top: 10px;
+    padding:15px;
+    background-color:#1c082e;
+}
+
+.foguete {
+    position: fixed;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.ind_foguete {
+    text-align: center;
+    margin-top:20%;
+    font-size:large
+}
+
+img.seta {
+    height: 29px;
+}
+
+h1 {
+    font-size: 600%;
+    padding-left: 20%;
+    font-family: 'vt323',monospace;
+}
+
+img.et {
+    width: 8%;
+    margin-left: 3%;
+    vertical-align: middle;
+}
+
+h3 {
+    padding-left:20%;
+}
+
+.title {
+    align-items:  center;
+}
+
+.campo_form {
+    text-align:center;
+    background-color: #1c082e;
+    font-size: large;
+}
+
+input {
+    background-color:#4dad59;
+    color: #FFF;
+    font-size: large;
+    border:none;
+    padding:6px;
+    font-family: 'Silkscreen', cursive;
+}
+
+::placeholder {
+    color: rgb(255, 255, 255);
+    opacity: 0.5;
+}
+
+#botao {
+    background-color:#4dad59;
+}
+
+#botao:hover {
+    
+    background-color:#1c082e;
+    transition: 0.1s;
+}
+
+.footer_1 {
+    background-color: #1c082e;
+    text-align: center;
+    font-size: 24px;
+}
+
+.footer_2 {
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 10px; 
+    margin-right: 10px;
+}
+
+.conteudo_footer {
+    background-color: #1c082e; 
+    width: 20%; 
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.DR {
+    text-align: center;
+}
