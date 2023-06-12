@@ -315,3 +315,22 @@ button:hover {
 .hide {
     display: none;
 }
+
+.correct{
+    background-color: #049b04;
+}
+
+.incorrect{
+    background-color: crimson;
+}
+
+.mensagem-final{
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.mensagem-final span{
+    display: block;
+    margin-top: 8px;
+}
