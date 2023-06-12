@@ -241,9 +241,18 @@ img.N1 {
 .conteudo_footer {
     background-color: #1c082e; 
     width: 20%; 
-    border-radius: 25px;
     text-align: center;
     padding-top: 1%;
+}
+
+#animacao {
+    position:relative;
+}
+
+#animacao:hover {top:-3px;box-shadow:0 2px 2px #7d42b0}
+
+img.inverter {
+    transform:scalex(-1)
 }
 
 .DR {
