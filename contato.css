@@ -82,6 +82,15 @@ input {
     font-family: 'Silkscreen', cursive;
 }
 
+textarea{
+    background-color:#4dad59;
+    color: #FFF;
+    font-size: large;
+    border:none;
+    padding:6px;
+    font-family: 'Silkscreen', cursive;
+}
+
 ::placeholder {
     color: rgb(255, 255, 255);
     opacity: 0.5;
@@ -118,6 +127,17 @@ input {
     padding-top: 1%;
 }
 
+#animacao {
+    position:relative;
+}
+
+#animacao:hover {
+    top:-3px;box-shadow:0 2px 2px #7d42b0
+}
+
+img.inverter {
+    transform:scalex(-1)
+}
 .DR {
     text-align: center;
 }
