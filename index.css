@@ -53,7 +53,7 @@ h1 {
 
 h2 {
     font-size: 500%;
-    padding-left: 45%;
+    padding-left: 38%;
     padding-top: 3%;
     font-family: 'vt323',monospace;
 }
@@ -87,7 +87,7 @@ section.planetas {
 
 img.S1 {
 
-    left:90px;
+    left:170px;
     top: 750px;
     position: absolute;
     
@@ -95,21 +95,21 @@ img.S1 {
 }
 
 .Tsol {
-    left: 45%;
+    left: 40%;
     top: 850px;
     position: absolute;
     justify-self: auto;
 }
 
 img.M1 {
-    left: 190px;
+    left: 260px;
     top: 1270px;
     position: absolute;
     
 }
 
 .Tmer {
-    left:45%;
+    left:40%;
     top: 1240px;
     position: absolute;
     justify-self: auto;
@@ -117,56 +117,56 @@ img.M1 {
 
 img.V1{
 
-    left: 175px;
+    left: 245px;
     top: 1630px;
     position: absolute;
     
 }
 
 .Tven {
-    left: 45%;
+    left: 40%;
     top: 1630px;
     position: absolute;
     justify-self: auto;
 }
 
 img.T1 {
-    left: 165px;
+    left: 235px;
     top: 1990px;
     position: absolute;
   
 }
 
 .Tter {
-    left: 45%;
+    left: 40%;
     top: 2025px;
     position: absolute;
     justify-self: auto;
 }
 
 img.MA1{
-    left: 185px;
+    left: 255px;
     top: 2430px;
     position: absolute;
     
 }
 
 .Tmar {
-    left:  45%;
+    left:  40%;
     top: 2425px;
     position: absolute;
     justify-self: auto;
 }
 
 img.J1{
-    left: 155px;
+    left: 225px;
     top: 2800px;
     position: absolute;
    
 }
 
 .Tjup {
-    left: 45%;
+    left: 40%;
     top: 2820px;
     position: absolute;
     justify-self: auto;
@@ -175,14 +175,14 @@ img.J1{
 
 img.SA1 {
 
-    left: 145px;
+    left: 215px;
     top: 3190px;
     position: absolute;
     
 }
 
 .Tsat {
-    left:  45%;
+    left:  40%;
     top: 3210px;
     position: absolute;
     justify-self: auto;
@@ -190,14 +190,14 @@ img.SA1 {
 
 img.U1 {
 
-    left: 179px;
+    left: 249px;
     top: 3610px;
     position: absolute;
    
 }
 
 .Tura {
-    left:  45%;
+    left:  40%;
     top: 3600px;
 
     position: absolute;
@@ -206,14 +206,14 @@ img.U1 {
 
 img.N1 {
 
-    left: 183px;
+    left: 243px;
     top: 4000px;
     position: absolute;
     
 }
 
 .Tnet {
-    left:  45%;
+    left:  40%;
     top: 4000px;
     position: absolute;
     justify-self: auto;
@@ -368,4 +368,3 @@ button:hover {
         background-position: 300%;
     }
 }
-
