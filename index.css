@@ -81,7 +81,8 @@ section.planetas {
 .trivia {
     background-color: #1c082e;
     height: 300px;
-    border-radius: 25px;
+    margin-left: 2%;
+    margin-right: 2%
 }
 
 img.S1 {
