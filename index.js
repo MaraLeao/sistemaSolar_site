@@ -124,7 +124,7 @@ const questions = [
       ]
     },
     {
-      question: "Complemente a afirmativa: _______ é o planeta mais próximo do sol",
+      question: "Complemente: _______ é o planeta mais próximo do sol",
       answers: [
         { text: "Mercúrio", correct: true },
         { text: "Sol", correct: false },
@@ -133,7 +133,7 @@ const questions = [
       ]
     },
     {
-      question: "Os movimento que a Terra tem em torno do sol, gera os fenômenos conhecidos como:",
+      question: "O movimento que a Terra tem em torno de si mesma, gera os fenômenos conhecidos como:",
       answers: [
         { text: "Fases da Lua", correct: false },
         { text: "Geração dos polos magnéticos", correct: false },
