@@ -355,7 +355,6 @@ button:hover {
     transition: filter 0.1s;
     background:linear-gradient(45deg,  #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
     background-size: 250%;
-    border-radius: 8px;
     animation: AnimarBorda 15s linear infinite;
 }
 
