@@ -53,7 +53,7 @@ h1 {
 
 h2 {
     font-size: 500%;
-    padding-left: 45%;
+    padding-left: 38%;
     padding-top: 3%;
     font-family: 'vt323',monospace;
 }
@@ -81,12 +81,13 @@ section.planetas {
 .trivia {
     background-color: #1c082e;
     height: 300px;
-    border-radius: 25px;
+    margin-left: 2%;
+    margin-right: 2%
 }
 
 img.S1 {
 
-    left:90px;
+    left:170px;
     top: 750px;
     position: absolute;
     
@@ -94,21 +95,21 @@ img.S1 {
 }
 
 .Tsol {
-    left: 45%;
+    left: 40%;
     top: 850px;
     position: absolute;
     justify-self: auto;
 }
 
 img.M1 {
-    left: 190px;
+    left: 260px;
     top: 1270px;
     position: absolute;
     
 }
 
 .Tmer {
-    left:45%;
+    left:40%;
     top: 1240px;
     position: absolute;
     justify-self: auto;
@@ -116,56 +117,56 @@ img.M1 {
 
 img.V1{
 
-    left: 175px;
+    left: 245px;
     top: 1630px;
     position: absolute;
     
 }
 
 .Tven {
-    left: 45%;
+    left: 40%;
     top: 1630px;
     position: absolute;
     justify-self: auto;
 }
 
 img.T1 {
-    left: 165px;
+    left: 235px;
     top: 1990px;
     position: absolute;
   
 }
 
 .Tter {
-    left: 45%;
+    left: 40%;
     top: 2025px;
     position: absolute;
     justify-self: auto;
 }
 
 img.MA1{
-    left: 185px;
+    left: 255px;
     top: 2430px;
     position: absolute;
     
 }
 
 .Tmar {
-    left:  45%;
+    left:  40%;
     top: 2425px;
     position: absolute;
     justify-self: auto;
 }
 
 img.J1{
-    left: 155px;
+    left: 225px;
     top: 2800px;
     position: absolute;
    
 }
 
 .Tjup {
-    left: 45%;
+    left: 40%;
     top: 2820px;
     position: absolute;
     justify-self: auto;
@@ -174,14 +175,14 @@ img.J1{
 
 img.SA1 {
 
-    left: 145px;
+    left: 215px;
     top: 3190px;
     position: absolute;
     
 }
 
 .Tsat {
-    left:  45%;
+    left:  40%;
     top: 3210px;
     position: absolute;
     justify-self: auto;
@@ -189,14 +190,14 @@ img.SA1 {
 
 img.U1 {
 
-    left: 179px;
+    left: 249px;
     top: 3610px;
     position: absolute;
    
 }
 
 .Tura {
-    left:  45%;
+    left:  40%;
     top: 3600px;
 
     position: absolute;
@@ -205,14 +206,14 @@ img.U1 {
 
 img.N1 {
 
-    left: 183px;
+    left: 243px;
     top: 4000px;
     position: absolute;
     
 }
 
 .Tnet {
-    left:  45%;
+    left:  40%;
     top: 4000px;
     position: absolute;
     justify-self: auto;
@@ -241,9 +242,18 @@ img.N1 {
 .conteudo_footer {
     background-color: #1c082e; 
     width: 20%; 
-    border-radius: 25px;
     text-align: center;
     padding-top: 1%;
+}
+
+#animacao {
+    position:relative;
+}
+
+#animacao:hover {top:-3px;box-shadow:0 2px 2px #7d42b0}
+
+img.inverter {
+    transform:scalex(-1)
 }
 
 .DR {
@@ -251,20 +261,20 @@ img.N1 {
 }
 
 .conteiner {
-    background-image: url('assets/fundogalaxy.jpg');
+    background-image: url('assets/pixelartbackground.jpeg');
+    background-size: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
   
-    border: 2px solid #e1e1e6;
-    border-radius: 6px;
-    padding: 16px;
-    box-shadow: 0 0 2px 2px;
+    border: none;
   
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 20% ;
+    margin-right: 20%;
 }
   
 .questoes-conteiner {
@@ -299,10 +309,10 @@ img.N1 {
 .button {
     background-color: #1c082e;
     color: #fff;
+    font-family: 'Silkscreen', cursive;
     font-size: 16px;
     font-weight: bold;
     border: 0;
-    border-radius: 6px;
     height: 48px;
     padding: 0 32px;
     transition: filter 0.1s;
@@ -333,4 +343,28 @@ button:hover {
 .mensagem-final span{
     display: block;
     margin-top: 8px;
+}
+
+.botton-rgb{
+    content: "";
+    font-family: 'Silkscreen', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    height: 48px;
+    padding: 0 32px;
+    transition: filter 0.1s;
+    background:linear-gradient(45deg,  #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
+    background-size: 250%;
+    animation: AnimarBorda 15s linear infinite;
+}
+
+
+@keyframes AnimarBorda{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 300%;
+    }
 }
