@@ -344,3 +344,28 @@ button:hover {
     margin-top: 8px;
 }
 
+.botton-rgb{
+    content: "";
+    font-family: 'Silkscreen', cursive;
+    font-size: 16px;
+    font-weight: bold;
+    border: 0;
+    height: 48px;
+    padding: 0 32px;
+    transition: filter 0.1s;
+    background:linear-gradient(45deg,  #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
+    background-size: 250%;
+    border-radius: 8px;
+    animation: AnimarBorda 15s linear infinite;
+}
+
+
+@keyframes AnimarBorda{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 300%;
+    }
+}
+
