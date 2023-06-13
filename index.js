@@ -86,9 +86,6 @@ function endgame (){
     case (corrects >= 5):
       mensage = "Muito bem, só estudar mais um pouquinho e você acerta tudo." 
       break
-    case (corrects >= 4):
-      mensage = "Boa! Passou mas foi por pouco, vamos estudar para melhorar !!!"
-      break
     case (corrects >= 3):
       mensage = "Eu sei que você consegue mais, vamos estudar mais na próxima."
       break
@@ -118,66 +115,66 @@ function endgame (){
 
 const questions = [
     {
-      question: "Sol",
+      question: "Quantos planetas atualmente compõem o sistema solar?",
       answers: [
-        { text: "<terra>", correct: false },
-        { text: "<marte>", correct: false },
-        { text: "<lua>", correct: true },
-        { text: "<netuno>", correct: false }
+        { text: "7", correct: false },
+        { text: "10", correct: false },
+        { text: "8", correct: true },
+        { text: "5", correct: false }
       ]
     },
     {
-      question: "questão 2",
+      question: "Complemente a afirmativa: _______ é o planeta mais próximo do sol",
       answers: [
-        { text: "<1>", correct: true },
-        { text: "<2>", correct: false },
-        { text: "<3>", correct: false },
-        { text: "<4>", correct: false }
+        { text: "Mercúrio", correct: true },
+        { text: "Sol", correct: false },
+        { text: "Marte", correct: false },
+        { text: "Terra", correct: false }
       ]
     },
     {
-      question: "questão 3",
+      question: "Os movimento que a Terra tem em torno do sol, gera os fenômenos conhecidos como:",
       answers: [
-        { text: "<1>", correct: true },
-        { text: '<2>', correct: false },
-        { text: '<3>', correct: false },
-        { text: "<4>", correct: false }
+        { text: "Fases da Lua", correct: false },
+        { text: "Geração dos polos magnéticos", correct: false },
+        { text: "Maré", correct: false },
+        { text: "Dia e noite", correct: true }
       ]
     },
     {
-      question: "questão 4",
+      question: "Qual é o nome do maior planeta gasoso do Sistema Solar?",
       answers: [
-        { text: "<1>", correct: false },
-        { text: '<2>', correct: false },
-        { text: '<3>', correct: true },
-        { text: "<4>", correct: false }
+        { text: "Saturno", correct: false },
+        { text: "Urano", correct: false },
+        { text: "Júpiter", correct: true },
+        { text: "Terra", correct: false }
       ]
     },
     {
-        question: "questão 5",
+        question: "Como se dá o nome do movimento de rotação da Terra em torno do sol?",
         answers: [
-          { text: "<1>", correct: false },
-          { text: '<2>', correct: false },
-          { text: '<3>', correct: false },
-          { text: "<4>", correct: true }
+          { text: "Rotação", correct: false },
+          { text: "Giração", correct: false },
+          { text: "Movimentamento", correct: false },
+          { text: "Translação", correct: true }
       ]
     },
     {
-        question: "questão 6",
+        question: "Dentro do sistema solar existem ao total 8 planetas, marque a alternativa que não representa um desses planetas.",
         answers: [
-          { text: "<1>", correct: false },
-          { text: '<2>', correct: true },
-          { text: '<3>', correct: false },
-          { text: "<4>", correct: false }
+          { text: "Júpiter", correct: false },
+          { text: "Plutão", correct: true },
+          { text: "Marte", correct: false },
+          { text: "Urano", correct: false }
       ]
     },
     {
-        question: "questão 7",
+        question: "Qual desses plantas registra a menor temperatura do sistema solar ?",
         answers: [
-          { text: "<1>", correct: true },
-          { text: '<2>', correct: false },
-          { text: '<3>', correct: false },
-          { text: "<4>", correct: false }
+          { text: "Rio Grande do Sul", correct: true },
+          { text: "Venûs", correct: false },
+          { text: "Marte", correct: false },
+          { text: "Urano", correct: false }
       ]
     },
   ]
