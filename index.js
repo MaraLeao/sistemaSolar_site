@@ -172,7 +172,7 @@ const questions = [
         question: "Qual desses plantas registra a menor temperatura do sistema solar ?",
         answers: [
           { text: "Rio Grande do Sul", correct: true },
-          { text: "Vênes", correct: false },
+          { text: "Vênus", correct: false },
           { text: "Marte", correct: false },
           { text: "Urano", correct: false }
       ]
