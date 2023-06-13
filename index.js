@@ -169,7 +169,7 @@ const questions = [
       ]
     },
     {
-        question: "Qual desses plantas registra a menor temperatura do sistema solar ?",
+        question: "Qual desses planetas registra a menor temperatura do sistema solar ?",
         answers: [
           { text: "Rio Grande do Sul", correct: true },
           { text: "Vênus", correct: false },
