@@ -178,3 +178,21 @@ const questions = [
       ]
     },
   ]
+
+
+//JavaScript do foguete
+			
+function alterarImagem(foguetinho){
+  document.getElementById(foguetinho).src = "assets/foguetecomfoguinho.png"; 
+}
+
+function resetarFoguete() {
+
+  if (window.scrollY === 0) {
+    document.getElementById('foguetinho').src = "assets/foguetesemfoguinho.png";
+  
+  }
+}
+
+window.addEventListener('scroll', resetarFoguete);
+

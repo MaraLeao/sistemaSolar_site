@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    color: #4dad59;
+}
+
 header {
     display:grid;
     grid-template-columns: 10% 10% 80%;
