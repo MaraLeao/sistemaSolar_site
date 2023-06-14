@@ -8,31 +8,31 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <script src="index.js" async> </script>
 
-    <link rel="icon" type="image/png" href="assets/sol-pixel.png">
+    <link rel="icon" type="image/png" href="assets/planetas/sol-pixel.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&family=Silkscreen&family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen&family=VT323&display=swap" rel="stylesheet">
     <title>Sistema Solar</title>
 </head>
 <body>
     <nav id="home">
-        <a href="index.html#navsol">Sol</a>
-        <a href="index.html#navmercurio">Mercúrio</a>
-        <a href="index.html#navvenus">Vênus</a>
-        <a href="index.html#navterra">Terra</a>
-        <a href="index.html#navmarte">Marte</a>
-        <a href="index.html#navjupiter">Júpiter</a>
-        <a href="index.html#navsaturno">Saturno</a>
-        <a href="index.html#navurano">Urano</a>
-        <a href="index.html#navnetuno">Netuno</a>
-        <a href="index.html#navquest">Questionário</a>
+        <a onclick="ancorarElemento('navsol')">Sol</a>
+        <a onclick="ancorarElemento('navmercurio')">Mercúrio</a>
+        <a onclick="ancorarElemento('navvenus')">Vênus</a>
+        <a onclick="ancorarElemento('navterra')">Terra</a>
+        <a onclick="ancorarElemento('navmarte')">Marte</a>
+        <a onclick="ancorarElemento('navjupiter')">Júpiter</a>
+        <a onclick="ancorarElemento('navsaturno')">Saturno</a>
+        <a onclick="ancorarElemento('navurano')">Urano</a>
+        <a onclick="ancorarElemento('navnetuno')">Netuno</a>
+        <a onclick="ancorarElemento('navquiz')">Questionário</a>
         <a href="contato.html">Contato</a>
     </nav>
     
     <header>
         <section>
-           <a href="index.html#home"><img src="assets/foguetesemfoguinho.png" class="foguete" id='foguetinho' onclick="alterarImagem('foguetinho', 'foguetesemfoguinho.png')"></a>
+           <a href="index.html#home"><img src="assets/foguetesemfoguinho.png" class="foguete" id='foguetinho' onclick="alterarImagem('foguetinho', 'foguetecomfoguinho.png')"></a>
         </section>
 
         <section class="ind_foguete">
@@ -49,15 +49,15 @@
     <section>
         <section class="planetas">
         
-            <a href="index.html#navsol"><img src="assets/planetas/sol-pixel.png"  alt="Sol" class="hoverplanetas"></a>   
-            <a href="index.html#navmercurio"><img src="assets/planetas/mercurio-pixel.png" alt="Mercúrio" class="hoverplanetas"></a>
-            <a href="index.html#navvenus"><img src="assets/planetas/venus-pixel.png" alt="Vênus" class="hoverplanetas"></a>
-            <a href="index.html#navterra"><img src="assets/planetas/terra-pixel.png" alt="Terra" class="hoverplanetas"></a>
-            <a href="index.html#navmarte"><img src="assets/planetas/marte-pixel.png" alt="Marte" class="hoverplanetas"></a>   
-            <a href="index.html#navjupiter"><img src="assets/planetas/jupiter-pixel.png" alt="Júpiter" class="hoverplanetas"></a>   
-            <a href="index.html#navsaturno"><img src="assets/planetas/saturno-pixel.png" alt="Saturno" class="hoverplanetas"></a>  
-            <a href="index.html#navurano"><img src="assets/planetas/urano-pixel.png"  alt="Urano" class="hoverplanetas"></a>   
-            <a href="index.html#navnetuno"> <img src="assets/planetas/netuno-pixel.png" alt="Netuno" class="hoverplanetas"></a>
+            <img src="assets/planetas/sol-pixel.png"  alt="Sol" class="hoverplanetas" onclick="ancorarElemento('navsol')">
+            <img src="assets/planetas/mercurio-pixel.png" alt="Mercúrio" class="hoverplanetas" onclick="ancorarElemento('navmercurio')">
+            <img src="assets/planetas/venus-pixel.png" alt="Vênus" class="hoverplanetas" onclick="ancorarElemento('navvenus')">
+            <img src="assets/planetas/terra-pixel.png" alt="Terra" class="hoverplanetas" onclick="ancorarElemento('navterra')">
+            <img src="assets/planetas/marte-pixel.png" alt="Marte" class="hoverplanetas" onclick="ancorarElemento('navmarte')">  
+            <img src="assets/planetas/jupiter-pixel.png" alt="Júpiter" class="hoverplanetas" onclick="ancorarElemento('navjupiter')">
+            <img src="assets/planetas/saturno-pixel.png" alt="Saturno" class="hoverplanetas" onclick="ancorarElemento('navsaturno')">
+            <img src="assets/planetas/urano-pixel.png"  alt="Urano" class="hoverplanetas" onclick="ancorarElemento('navurano')">
+            <img src="assets/planetas/netuno-pixel.png" alt="Netuno" class="hoverplanetas" onclick="ancorarElemento('navnetuno')">
         </section>
       
        <section class="Tplanetas">
@@ -93,7 +93,7 @@
           </p>    
          <img src="assets/planetas/mercurio-pixel.png" class="M1"/>
 
-            <h2 class="trivia" id="navvenus">VENUS</h2>
+            <h2 class="trivia"  id="navvenus" >VENUS</h2>
             <p class="Tven">
                    Vénus ou Vênus é o segundo planeta do Sistema Solar em ordem de distância<br>
                    a partir do Sol, orbitando-o a cada 224,7 dias. Recebeu seu nome em homenagem<br>
@@ -108,7 +108,7 @@
          <img src="assets/planetas/venus-pixel.png" class="V1"/>
 
             <h2 class="trivia" id="navterra">TERRA</h2>
-            <p class="Tter">
+            <p class="Tter" id="ancoragem">
                     A Terra é o terceiro planeta mais próximo do Sol, o mais denso e o quinto <br>
                 maior  dos oito planetas do Sistema Solar. É também   o maior dos quatro<br>  
                 planetas telúricos. É por vezes designada como Mundo ou Planeta Azul.<br>
@@ -188,7 +188,7 @@
         </section>
     </section>
     
-    <div class="conteiner" id="navquest">
+    <div class="conteiner" id="navquiz">
         <div class="questoes-conteiner hide">
           <span class="questao">Pergunta ???</span>
           <div class="resposta-conteiner">

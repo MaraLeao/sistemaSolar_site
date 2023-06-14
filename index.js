@@ -190,9 +190,16 @@ function resetarFoguete() {
 
   if (window.scrollY === 0) {
     document.getElementById('foguetinho').src = "assets/foguetesemfoguinho.png";
-  
   }
 }
 
 window.addEventListener('scroll', resetarFoguete);
+
+//Centralização da ancoragem
+function ancorarElemento(navId) {
+
+  var elementoAncorado = document.getElementById(navId);
+  elementoAncorado.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
 
