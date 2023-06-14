@@ -12,6 +12,7 @@ body {
     
 }
 
+/*Barra de navegação*/
 nav {
     display:flex; 
     justify-content:space-between; 
@@ -52,10 +53,10 @@ h1 {
 
 
 h2 {
+    margin-top: 0%;
     font-size: 500%;
-    padding-left: 38%;
-    padding-top: 3%;
     font-family: 'vt323',monospace;
+    margin-bottom: 0;
 }
 
 h3{
@@ -87,26 +88,81 @@ section.planetas {
 }
 
 .trivia {
-    background-color: #1c082e;
-    height: 300px;
-    margin-left: 2%;
-    margin-right: 2%
-}
-
-img.S1 {
-
-    left:170px;
-    top: 750px;
-    position: absolute;
     
-   
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top:9%;
+    display:flex;
+    align-items: center;
+    padding:1.5% 5%;
 }
 
-.Tsol {
-    left: 40%;
-    top: 850px;
-    position: absolute;
-    justify-self: auto;
+.S1 {
+    flex-basis: 50%;
+    width: 20%;
+    
+}
+
+/*.blur{
+    background-color: #d3cf08;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    box-shadow: 0 0 50px rgba(237, 186, 18, 1);
+
+    
+}*/
+
+.S1 img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.blur_sol {
+    filter: drop-shadow(0 0 30px rgba(237, 186, 18, 0.8));
+}
+
+img.blur_m1 {
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.9));
+    width: 10%;
+}
+
+img.blur_vm {
+    filter: drop-shadow(0 0 30px rgba(254, 100, 48, 0.8));
+    width: 12%;
+}
+
+img.blur_t {
+    filter: drop-shadow(0 0 30px rgba(42, 181, 235, 0.8));
+}
+
+img.blur_j {
+    filter: drop-shadow(0 0 30px rgba(255, 202, 117, 0.8));
+}
+
+img.blur_s {
+    filter: drop-shadow(0 0 30px rgba(213, 134, 5, 0.8));
+}
+
+img.blur_u {
+    filter: drop-shadow(0 0 30px rgba(35, 204, 234, 0.8));
+}
+
+img.blur_n {
+    filter: drop-shadow(0 0 30px rgba(17, 31, 184, 0.8));
+}
+
+.TextoPlanetas {
+    background-color:rgba(28, 8, 46, 0.8);
+    flex-basis: 50%;
+    vertical-align: middle;
+    margin-top: 0;
+    padding:3%
 }
 
 img.M1 {
@@ -281,6 +337,8 @@ img.inverter {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
+    margin-bottom:10%;
     margin-left: 20% ;
     margin-right: 20%;
 }

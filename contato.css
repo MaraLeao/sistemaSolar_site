@@ -1,3 +1,4 @@
+/*Estrutura básica da página*/
 html {
     scroll-behavior:smooth;
 }
@@ -11,6 +12,7 @@ body {
     font-size: small;
 }
 
+/*Barra de navegação*/
 nav {
     display:flex; 
     justify-content:space-between; 
@@ -27,6 +29,7 @@ a:hover{
     color: #4dad59;
 }
 
+/*Parte onde fica o título*/
 header {
     display:grid;
     grid-template-columns: 10% 10% 80%;
@@ -55,6 +58,7 @@ h1 {
     font-size: 600%;
     padding-left: 20%;
     font-family: 'vt323',monospace;
+    align-items:  center;
 }
 
 img.et {
@@ -67,10 +71,7 @@ h3 {
     padding-left:20%;
 }
 
-.title {
-    align-items:  center;
-}
-
+/*Formulário*/
 .campo_form {
     text-align:center;
     background-color: #1c082e;
@@ -100,16 +101,18 @@ textarea{
     opacity: 0.5;
 }
 
+/*Botões de enviar e limpar*/
 #botao {
     background-color:#4dad59;
 }
 
 #botao:hover {
     
-    background-color:#1c082e;
+    background-color: rgba(77,173,89,0.5);
     transition: 0.1s;
 }
 
+/*Rodapé*/
 .footer_1 {
     background-color: #1c082e;
     text-align: center;
@@ -131,6 +134,10 @@ textarea{
     padding-top: 1%;
 }
 
+img.inverter {
+    transform:scalex(-1)
+}
+
 #animacao {
     position:relative;
 }
@@ -139,9 +146,6 @@ textarea{
     top:-3px;box-shadow:0 2px 2px #7d42b0
 }
 
-img.inverter {
-    transform:scalex(-1)
-}
 .DR {
     text-align: center;
 }
