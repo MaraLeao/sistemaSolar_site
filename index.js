@@ -124,7 +124,9 @@ const questions = [
       ]
     },
     {
-      question: "Complemente: _______ é o planeta mais próximo do sol",
+
+      question: "Complete a frase: _______ é o planeta mais próximo do sol",
+
       answers: [
         { text: "Mercúrio", correct: true },
         { text: "Sol", correct: false },
