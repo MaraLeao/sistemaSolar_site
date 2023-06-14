@@ -124,7 +124,9 @@ const questions = [
       ]
     },
     {
-      question: "Complemente a frase: _______ é o planeta mais próximo do sol",
+
+      question: "Complete a frase: _______ é o planeta mais próximo do sol",
+
       answers: [
         { text: "Mercúrio", correct: true },
         { text: "Sol", correct: false },
@@ -178,3 +180,28 @@ const questions = [
       ]
     },
   ]
+
+
+//JavaScript do foguete
+			
+function alterarImagem(foguetinho){
+  document.getElementById(foguetinho).src = "assets/foguetecomfoguinho.png"; 
+}
+
+function resetarFoguete() {
+
+  if (window.scrollY === 0) {
+    document.getElementById('foguetinho').src = "assets/foguetesemfoguinho.png";
+  }
+}
+
+window.addEventListener('scroll', resetarFoguete);
+
+//Centralização da ancoragem
+function ancorarElemento(navId) {
+
+  var elementoAncorado = document.getElementById(navId);
+  elementoAncorado.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+

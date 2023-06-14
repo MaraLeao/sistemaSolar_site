@@ -12,6 +12,7 @@ body {
     
 }
 
+/*Barra de navegação*/
 nav {
     display:flex; 
     justify-content:space-between; 
@@ -52,10 +53,10 @@ h1 {
 
 
 h2 {
+    margin-top: 0%;
     font-size: 500%;
-    padding-left: 45%;
-    padding-top: 3%;
     font-family: 'vt323',monospace;
+    margin-bottom: 0;
 }
 
 h3{
@@ -71,6 +72,14 @@ a {
     text-decoration: none;
 }
 
+a:hover{
+    color: #4dad59;
+}
+
+img.hoverplanetas:hover{
+    transform: scale(1.3);
+}
+
 section.planetas {
     justify-content: space-between;
     display:flex;
@@ -79,36 +88,92 @@ section.planetas {
 }
 
 .trivia {
-    background-color: #1c082e;
-    height: 300px;
-    border-radius: 25px;
-}
-
-img.S1 {
-
-    left:90px;
-    top: 750px;
-    position: absolute;
     
-   
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top:9%;
+    display:flex;
+    align-items: center;
+    padding:1.5% 5%;
 }
 
-.Tsol {
-    left: 45%;
-    top: 850px;
-    position: absolute;
-    justify-self: auto;
+.S1 {
+    flex-basis: 50%;
+    width: 20%;
+    
+}
+
+/*.blur{
+    background-color: #d3cf08;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    box-shadow: 0 0 50px rgba(237, 186, 18, 1);
+
+    
+}*/
+
+.S1 img {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    z-index: 1;
+}
+
+.blur_sol {
+    filter: drop-shadow(0 0 30px rgba(237, 186, 18, 0.8));
+}
+
+img.blur_m1 {
+    filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.9));
+    width: 10%;
+}
+
+img.blur_vm {
+    filter: drop-shadow(0 0 30px rgba(254, 100, 48, 0.8));
+    width: 12%;
+}
+
+img.blur_t {
+    filter: drop-shadow(0 0 30px rgba(42, 181, 235, 0.8));
+}
+
+img.blur_j {
+    filter: drop-shadow(0 0 30px rgba(255, 202, 117, 0.8));
+}
+
+img.blur_s {
+    filter: drop-shadow(0 0 30px rgba(213, 134, 5, 0.8));
+}
+
+img.blur_u {
+    filter: drop-shadow(0 0 30px rgba(35, 204, 234, 0.8));
+}
+
+img.blur_n {
+    filter: drop-shadow(0 0 30px rgba(17, 31, 184, 0.8));
+}
+
+.TextoPlanetas {
+    background-color:rgba(28, 8, 46, 0.8);
+    flex-basis: 50%;
+    vertical-align: middle;
+    margin-top: 0;
+    padding:3%
 }
 
 img.M1 {
-    left: 190px;
+    left: 260px;
     top: 1270px;
     position: absolute;
     
 }
 
 .Tmer {
-    left:45%;
+    left:40%;
     top: 1240px;
     position: absolute;
     justify-self: auto;
@@ -116,56 +181,56 @@ img.M1 {
 
 img.V1{
 
-    left: 175px;
+    left: 245px;
     top: 1630px;
     position: absolute;
     
 }
 
 .Tven {
-    left: 45%;
+    left: 40%;
     top: 1630px;
     position: absolute;
     justify-self: auto;
 }
 
 img.T1 {
-    left: 165px;
+    left: 235px;
     top: 1990px;
     position: absolute;
   
 }
 
 .Tter {
-    left: 45%;
+    left: 40%;
     top: 2025px;
     position: absolute;
     justify-self: auto;
 }
 
 img.MA1{
-    left: 185px;
+    left: 255px;
     top: 2430px;
     position: absolute;
     
 }
 
 .Tmar {
-    left:  45%;
+    left:  40%;
     top: 2425px;
     position: absolute;
     justify-self: auto;
 }
 
 img.J1{
-    left: 155px;
+    left: 225px;
     top: 2800px;
     position: absolute;
    
 }
 
 .Tjup {
-    left: 45%;
+    left: 40%;
     top: 2820px;
     position: absolute;
     justify-self: auto;
@@ -174,14 +239,14 @@ img.J1{
 
 img.SA1 {
 
-    left: 145px;
+    left: 215px;
     top: 3190px;
     position: absolute;
     
 }
 
 .Tsat {
-    left:  45%;
+    left:  40%;
     top: 3210px;
     position: absolute;
     justify-self: auto;
@@ -189,14 +254,14 @@ img.SA1 {
 
 img.U1 {
 
-    left: 179px;
+    left: 249px;
     top: 3610px;
     position: absolute;
    
 }
 
 .Tura {
-    left:  45%;
+    left:  40%;
     top: 3600px;
 
     position: absolute;
@@ -205,14 +270,14 @@ img.U1 {
 
 img.N1 {
 
-    left: 183px;
+    left: 243px;
     top: 4000px;
     position: absolute;
     
 }
 
 .Tnet {
-    left:  45%;
+    left:  40%;
     top: 4000px;
     position: absolute;
     justify-self: auto;
@@ -272,6 +337,8 @@ img.inverter {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
+    margin-bottom:10%;
     margin-left: 20% ;
     margin-right: 20%;
 }
@@ -355,7 +422,6 @@ button:hover {
     transition: filter 0.1s;
     background:linear-gradient(45deg,  #ffff00, #00ff00, #0099ff, #001aff, #a200ff, #ff0055, #ff0000);
     background-size: 250%;
-    border-radius: 8px;
     animation: AnimarBorda 15s linear infinite;
 }
 
@@ -368,4 +434,3 @@ button:hover {
         background-position: 300%;
     }
 }
-
