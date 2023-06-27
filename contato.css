@@ -76,6 +76,7 @@ h3 {
     text-align:center;
     background-color: #1c082e;
     font-size: large;
+    border: 0;
 }
 
 input {
@@ -129,7 +130,6 @@ textarea{
 .conteudo_footer {
     background-color: #1c082e; 
     width: 20%; 
-    border-radius: 25px;
     text-align: center;
     padding-top: 1%;
 }
